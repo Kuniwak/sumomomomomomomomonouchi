@@ -72,6 +72,8 @@ describe('Lexer', function() {
 
   it('should be failed by given unexpected close bracket', function() {
     var lexer = new Lexer();
-    lexer.lex('すも、ものうち。のうち。');
+    expect(function() {
+      lexer.lex('すも、ものうち。のうち。');
+    }).to.throwError();
   });
 });
