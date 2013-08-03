@@ -1,0 +1,21 @@
+{
+  "name": "su10chi",
+  "version": "0.0.0",
+  "description": "An esolang interpreter for \"Sumomomo-momomo-momo-no-uchi\".",
+  "main": "lib/su10chi.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test/tests"
+  },
+  "keywords": [
+    "esolang"
+  ],
+  "author": "OrgaChem",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "expect.js": "~0.2.0"
+  }
+}
