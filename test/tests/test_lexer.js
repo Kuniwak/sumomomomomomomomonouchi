@@ -9,6 +9,5 @@ describe('Lexer', function() {
   it('should analyze "hello, world"', function() {
     var lexer = new Lexer();
     lexer.lex('すももも、すもももも、もののもののの、ものののものも、もののもものの、もののもものの、もののもももも、もののののの、ものものももも、もののもももも、ものもののもの、もののもものの、ものののものののうち。のうち。');
-    console.log(lexer);
   });
 });
